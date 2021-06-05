@@ -1,0 +1,73 @@
+.digi-timer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a878ff;
+    position: relative;
+  }
+  
+  .digi-timer__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #dadada;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    border: 4px solid #f7f7f7;
+    border-radius: 32px;
+    background-color: #dbdbdb;
+    height: 200px;
+    padding: 16px;
+  }
+  
+  .digi-timer__inner-block {
+    width: 100%;
+    height: 100%;
+    background-color: #07b7aa;
+    border: 2px solid #868382;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    box-sizing: border-box;
+  }
+  
+  .digi-timer__display {
+    width: 100%;
+    background-color: #cad1a7;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .digi-timer__controls {
+    width: 100%;
+    background-color: #059583;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .digi-timer__button {
+    background-color: #442918;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    min-width: 66px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .digi-timer__button:hover {
+    background-color: #470905;
+  }
